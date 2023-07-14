@@ -1,40 +1,28 @@
-# vue3-center-platform
+# Vue3、TypeScript、TailwindCSS 启动模板
 
-This template should help get you started developing with Vue 3 in Vite.
+## 项目说明
 
-## Recommended IDE Setup
+- 集成 [VueRouter](https://router.vuejs.org/zh/)、[Pinia](https://pinia.vuejs.org/zh/)
+- 集成 [TailwindCss](https://tailwindcss.com/) 作为CSS框架
+- 集成 [VueUse](https://vueuse.org/) hooks工具集
+- 通过 [ESlint](https://zh-hans.eslint.org/) 和 [Prettier](https://prettier.io/) 约束代码风格
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 如何使用?
 
-## Type Support for `.vue` Imports in TS
+### 1. 下载项目
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+git clone https://github.com/Oorpow/vue3-fast-starter.git
 ```
 
-### Compile and Hot-Reload for Development
+### 2. 安装依赖
 
-```sh
-npm run dev
+```bash
+pnpm install
 ```
 
-### Type-Check, Compile and Minify for Production
+### 3. 启动项目
 
-```sh
-npm run build
+```bash
+pnpm dev
 ```
