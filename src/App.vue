@@ -1,17 +1,11 @@
 <script setup lang="ts">
+import Header from "@/components/Header/index.vue";
 import { RouterView } from "vue-router";
 </script>
 
 <template>
-	<header>
-		<img
-			alt="Vue logo"
-			class="logo"
-			src="@/assets/logo.svg"
-			width="125"
-			height="125"
-		/>
-	</header>
-
-	<RouterView />
+	<Header />
+	<div class="p-4">
+		<RouterView />
+	</div>
 </template>

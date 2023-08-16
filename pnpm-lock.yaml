@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-prerendered/vue-mdi': ^0.23.1689058119
   '@tsconfig/node18': ^2.0.1
   '@types/node': ^18.16.17
   '@typescript-eslint/eslint-plugin': ^6.0.0
@@ -28,6 +29,7 @@ specifiers:
   vue-tsc: ^1.6.5
 
 dependencies:
+  '@iconify-prerendered/vue-mdi': 0.23.1689058119_vue@3.3.4
   '@vueuse/core': 10.2.1_vue@3.3.4
   pinia: 2.1.4_typescript@5.0.4+vue@3.3.4
   vue: 3.3.4
@@ -615,6 +617,14 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
+
+  /@iconify-prerendered/vue-mdi/0.23.1689058119_vue@3.3.4:
+    resolution: {integrity: sha512-5Q0YZ0yez6YwAvrSCZPn3HfGeo/qbYI/QCr5hdAyivDRB/tLtubdUT2IV/JSCxBsHivSHiV1Dmbd/W0boeWC4A==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.3.4
+    dev: false
 
   /@jridgewell/gen-mapping/0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
